@@ -1,0 +1,13 @@
+.companyLogoClass{
+  height: 50px;
+  width: 50px;
+  
+}
+
+.navBarContainer{
+  background-color: aqua;
+}
+
+.innerNavBarContainer{
+  background-color:bisque;
+}
