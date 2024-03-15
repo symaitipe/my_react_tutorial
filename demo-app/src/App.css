@@ -1,13 +1,20 @@
+.outerContainer{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles for navigation bar */
+.innerNavBarContainer{
+  background-color:bisque;
+}
+
+
+
+/* styles for Logo inside the nav bar */
 .companyLogoClass{
   height: 50px;
   width: 50px;
   
-}
-
-.navBarContainer{
-  background-color: aqua;
-}
-
-.innerNavBarContainer{
-  background-color:bisque;
 }

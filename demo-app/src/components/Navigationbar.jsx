@@ -10,7 +10,8 @@ export default function Navigationbar() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div>
+    <div className="outerContainer">
+
       <div className='container-fluid navBarContainer' >
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,7 +41,7 @@ export default function Navigationbar() {
                 <div className="input-group mb-2">
                   <div className="input-group-prepend">
                     <div className="input-group-text">
-                    <FontAwesomeIcon icon={faSearch} style={{ height: '30px' }} />
+                      <FontAwesomeIcon icon={faSearch} style={{ height: '30px' }} />
                     </div>
                   </div>
                   <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Username" />

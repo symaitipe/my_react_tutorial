@@ -1,6 +1,6 @@
 
 import './App.css'
-
+import './index.css'
 import Home from './components/Home'
 import AOS from 'aos'
 import 'aos/dist/aos.js'
