@@ -10,9 +10,9 @@ export default function Navigationbar() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="outerContainer">
+    
 
-      <div className='container-fluid navBarContainer' >
+      <div className='navBarContainer' >
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid innerNavBarContainer">
@@ -74,6 +74,6 @@ export default function Navigationbar() {
         </nav>
 
       </div>
-    </div>
+ 
   )
 }
